@@ -83,6 +83,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ChucNang.resx">
+      <DependentUpon>ChucNang.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="hethong.resx">
       <DependentUpon>hethong.cs</DependentUpon>
     </EmbeddedResource>
