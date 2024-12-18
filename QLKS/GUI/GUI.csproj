@@ -63,6 +63,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChucNang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChucNang.Designer.cs">
+      <DependentUpon>ChucNang.cs</DependentUpon>
+    </Compile>
     <Compile Include="hethong.cs">
       <SubType>Form</SubType>
     </Compile>
